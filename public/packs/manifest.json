@@ -1,0 +1,10 @@
+{
+  "application.css": "/packs/application-9d0176c72d4cb76cbae95a547571166b.css",
+  "application.css.map": "/packs/application-9d0176c72d4cb76cbae95a547571166b.css.map",
+  "application.js": "/packs/application-2e7e2e9bc0379e3efd4b.js",
+  "application.js.map": "/packs/application-2e7e2e9bc0379e3efd4b.js.map",
+  "hello_vue.css": "/packs/hello_vue-9d0176c72d4cb76cbae95a547571166b.css",
+  "hello_vue.css.map": "/packs/hello_vue-9d0176c72d4cb76cbae95a547571166b.css.map",
+  "hello_vue.js": "/packs/hello_vue-dfc9cf8b4a0106e36f3c.js",
+  "hello_vue.js.map": "/packs/hello_vue-dfc9cf8b4a0106e36f3c.js.map"
+}
