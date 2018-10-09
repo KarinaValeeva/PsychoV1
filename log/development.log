@@ -4176,3 +4176,1212 @@ An unauthorized connection attempt was rejected
 Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
 Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-08 22:35:39 +0300
 Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-08 22:35:39 +0300
+Started GET "/" for 127.0.0.1 at 2018-10-09 08:47:04 +0300
+  [1m[35m (3.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ListsController#index as HTML
+  Rendering lists/index.html.erb within layouts/application
+  [1m[36mList Load (1.4ms)[0m  [1m[34mSELECT "lists".* FROM "lists" ORDER BY "lists"."position" ASC[0m
+  [1m[36mCard Load (0.4ms)[0m  [1m[34mSELECT "cards".* FROM "cards" WHERE "cards"."list_id" = ? ORDER BY "cards"."position" ASC[0m  [["list_id", 1]]
+  [1m[36mCard Load (0.4ms)[0m  [1m[34mSELECT "cards".* FROM "cards" WHERE "cards"."list_id" = ? ORDER BY "cards"."position" ASC[0m  [["list_id", 2]]
+  [1m[36mCard Load (0.3ms)[0m  [1m[34mSELECT "cards".* FROM "cards" WHERE "cards"."list_id" = ? ORDER BY "cards"."position" ASC[0m  [["list_id", 3]]
+  Rendered lists/index.html.erb within layouts/application (71.7ms)
+  Rendered shared/_head.html.erb (2305.5ms)
+  [1m[36mAnnouncement Load (0.5ms)[0m  [1m[34mSELECT  "announcements".* FROM "announcements" ORDER BY "announcements"."published_at" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (13.1ms)
+  Rendered shared/_notices.html.erb (0.7ms)
+  Rendered shared/_footer.html.erb (3.5ms)
+Completed 200 OK in 2487ms (Views: 2421.7ms | ActiveRecord: 4.9ms)
+
+
+Started GET "/cable" for 127.0.0.1 at 2018-10-09 08:47:07 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 08:47:07 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 08:47:07 +0300
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 08:47:08 +0300
+Started GET "/cable" for 127.0.0.1 at 2018-10-09 08:47:17 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 08:47:17 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 08:47:17 +0300
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 08:47:17 +0300
+Started GET "/" for 127.0.0.1 at 2018-10-09 08:47:25 +0300
+Processing by ListsController#index as HTML
+  Rendering lists/index.html.erb within layouts/application
+  [1m[36mList Load (0.7ms)[0m  [1m[34mSELECT "lists".* FROM "lists" ORDER BY "lists"."position" ASC[0m
+  [1m[36mCard Load (0.3ms)[0m  [1m[34mSELECT "cards".* FROM "cards" WHERE "cards"."list_id" = ? ORDER BY "cards"."position" ASC[0m  [["list_id", 1]]
+  [1m[36mCard Load (0.4ms)[0m  [1m[34mSELECT "cards".* FROM "cards" WHERE "cards"."list_id" = ? ORDER BY "cards"."position" ASC[0m  [["list_id", 2]]
+  [1m[36mCard Load (0.2ms)[0m  [1m[34mSELECT "cards".* FROM "cards" WHERE "cards"."list_id" = ? ORDER BY "cards"."position" ASC[0m  [["list_id", 3]]
+  Rendered lists/index.html.erb within layouts/application (9.3ms)
+  Rendered shared/_head.html.erb (84.4ms)
+  [1m[36mAnnouncement Load (0.6ms)[0m  [1m[34mSELECT  "announcements".* FROM "announcements" ORDER BY "announcements"."published_at" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (3.7ms)
+  Rendered shared/_notices.html.erb (0.8ms)
+  Rendered shared/_footer.html.erb (0.8ms)
+Completed 200 OK in 150ms (Views: 144.3ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/cable" for 127.0.0.1 at 2018-10-09 08:47:25 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 08:47:25 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 08:47:25 +0300
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 08:47:25 +0300
+Started GET "/" for 127.0.0.1 at 2018-10-09 08:47:27 +0300
+Processing by ListsController#index as HTML
+  Rendering lists/index.html.erb within layouts/application
+  [1m[36mList Load (0.4ms)[0m  [1m[34mSELECT "lists".* FROM "lists" ORDER BY "lists"."position" ASC[0m
+  [1m[36mCard Load (0.2ms)[0m  [1m[34mSELECT "cards".* FROM "cards" WHERE "cards"."list_id" = ? ORDER BY "cards"."position" ASC[0m  [["list_id", 1]]
+  [1m[36mCard Load (0.2ms)[0m  [1m[34mSELECT "cards".* FROM "cards" WHERE "cards"."list_id" = ? ORDER BY "cards"."position" ASC[0m  [["list_id", 2]]
+  [1m[36mCard Load (0.1ms)[0m  [1m[34mSELECT "cards".* FROM "cards" WHERE "cards"."list_id" = ? ORDER BY "cards"."position" ASC[0m  [["list_id", 3]]
+  Rendered lists/index.html.erb within layouts/application (8.1ms)
+  Rendered shared/_head.html.erb (48.1ms)
+  [1m[36mAnnouncement Load (0.3ms)[0m  [1m[34mSELECT  "announcements".* FROM "announcements" ORDER BY "announcements"."published_at" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (5.5ms)
+  Rendered shared/_notices.html.erb (0.6ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 84ms (Views: 80.9ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/cable" for 127.0.0.1 at 2018-10-09 08:47:27 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 08:47:27 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 08:47:27 +0300
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 08:47:27 +0300
+Started GET "/cable" for 127.0.0.1 at 2018-10-09 08:47:36 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 08:47:36 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 08:47:36 +0300
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 08:47:36 +0300
+Started GET "/cable" for 127.0.0.1 at 2018-10-09 08:47:49 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 08:47:49 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 08:47:49 +0300
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 08:47:49 +0300
+Started GET "/cable" for 127.0.0.1 at 2018-10-09 08:47:57 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 08:47:57 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 08:47:57 +0300
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 08:47:57 +0300
+Started GET "/cable" for 127.0.0.1 at 2018-10-09 08:48:06 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 08:48:06 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 08:48:06 +0300
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 08:48:06 +0300
+Started GET "/cable" for 127.0.0.1 at 2018-10-09 08:48:16 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 08:48:16 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 08:48:16 +0300
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 08:48:16 +0300
+Started GET "/cable" for 127.0.0.1 at 2018-10-09 08:48:26 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 08:48:26 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 08:48:26 +0300
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 08:48:26 +0300
+Started GET "/cable" for 127.0.0.1 at 2018-10-09 08:48:37 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 08:48:37 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 08:48:37 +0300
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 08:48:37 +0300
+Started GET "/cable" for 127.0.0.1 at 2018-10-09 08:48:49 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 08:48:49 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 08:48:49 +0300
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 08:48:49 +0300
+Started GET "/cable" for 127.0.0.1 at 2018-10-09 08:49:01 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 08:49:01 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 08:49:01 +0300
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 08:49:01 +0300
+Started GET "/cable" for 127.0.0.1 at 2018-10-09 08:49:13 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 08:49:13 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 08:49:13 +0300
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 08:49:13 +0300
+Started GET "/cable" for 127.0.0.1 at 2018-10-09 08:49:26 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 08:49:26 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_Started GET "/" for 127.0.0.1 at 2018-10-09 08:58:56 +0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ListsController#index as HTML
+  Rendering lists/index.html.erb within layouts/application
+  [1m[36mList Load (0.4ms)[0m  [1m[34mSELECT "lists".* FROM "lists" ORDER BY "lists"."position" ASC[0m
+  [1m[36mCard Load (0.5ms)[0m  [1m[34mSELECT "cards".* FROM "cards" WHERE "cards"."list_id" = ? ORDER BY "cards"."position" ASC[0m  [["list_id", 1]]
+  [1m[36mCard Load (0.5ms)[0m  [1m[34mSELECT "cards".* FROM "cards" WHERE "cards"."list_id" = ? ORDER BY "cards"."position" ASC[0m  [["list_id", 2]]
+  [1m[36mCard Load (0.1ms)[0m  [1m[34mSELECT "cards".* FROM "cards" WHERE "cards"."list_id" = ? ORDER BY "cards"."position" ASC[0m  [["list_id", 3]]
+  Rendered lists/index.html.erb within layouts/application (36.2ms)
+  Rendered shared/_head.html.erb (1705.3ms)
+  [1m[36mAnnouncement Load (0.4ms)[0m  [1m[34mSELECT  "announcements".* FROM "announcements" ORDER BY "announcements"."published_at" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (8.3ms)
+  Rendered shared/_notices.html.erb (0.5ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 1790ms (Views: 1769.2ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/cable" for 127.0.0.1 at 2018-10-09 08:58:58 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 08:58:58 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 08:58:58 +0300
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 08:58:58 +0300
+Started GET "/cable" for 127.0.0.1 at 2018-10-09 08:59:07 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 08:59:07 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 08:59:07 +0300
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 08:59:07 +0300
+Started GET "/cable" for 127.0.0.1 at 2018-10-09 08:59:20 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 08:59:20 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 08:59:20 +0300
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 08:59:20 +0300
+Started GET "/cable" for 127.0.0.1 at 2018-10-09 08:59:28 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 08:59:28 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 08:59:28 +0300
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 08:59:28 +0300
+Started GET "/cable" for 127.0.0.1 at 2018-10-09 08:59:37 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 08:59:37 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 08:59:37 +0300
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 08:59:37 +0300
+Started GET "/" for 127.0.0.1 at 2018-10-09 08:59:43 +0300
+Processing by ListsController#index as HTML
+  Rendering lists/index.html.erb within layouts/application
+  [1m[36mList Load (0.4ms)[0m  [1m[34mSELECT "lists".* FROM "lists" ORDER BY "lists"."position" ASC[0m
+  [1m[36mCard Load (0.2ms)[0m  [1m[34mSELECT "cards".* FROM "cards" WHERE "cards"."list_id" = ? ORDER BY "cards"."position" ASC[0m  [["list_id", 1]]
+  [1m[36mCard Load (0.2ms)[0m  [1m[34mSELECT "cards".* FROM "cards" WHERE "cards"."list_id" = ? ORDER BY "cards"."position" ASC[0m  [["list_id", 2]]
+  [1m[36mCard Load (0.1ms)[0m  [1m[34mSELECT "cards".* FROM "cards" WHERE "cards"."list_id" = ? ORDER BY "cards"."position" ASC[0m  [["list_id", 3]]
+  Rendered lists/index.html.erb within layouts/application (8.1ms)
+  Rendered shared/_head.html.erb (54.4ms)
+  [1m[36mAnnouncement Load (0.3ms)[0m  [1m[34mSELECT  "announcements".* FROM "announcements" ORDER BY "announcements"."published_at" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (5.2ms)
+  Rendered shared/_notices.html.erb (0.5ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+Completed 200 OK in 89ms (Views: 85.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/cable" for 127.0.0.1 at 2018-10-09 08:59:43 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 08:59:43 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 08:59:43 +0300
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 08:59:43 +0300
+Started GET "/" for 127.0.0.1 at 2018-10-09 08:59:44 +0300
+Processing by ListsController#index as HTML
+  Rendering lists/index.html.erb within layouts/application
+  [1m[36mList Load (0.2ms)[0m  [1m[34mSELECT "lists".* FROM "lists" ORDER BY "lists"."position" ASC[0m
+  [1m[36mCard Load (0.3ms)[0m  [1m[34mSELECT "cards".* FROM "cards" WHERE "cards"."list_id" = ? ORDER BY "cards"."position" ASC[0m  [["list_id", 1]]
+  [1m[36mCard Load (0.3ms)[0m  [1m[34mSELECT "cards".* FROM "cards" WHERE "cards"."list_id" = ? ORDER BY "cards"."position" ASC[0m  [["list_id", 2]]
+  [1m[36mCard Load (0.2ms)[0m  [1m[34mSELECT "cards".* FROM "cards" WHERE "cards"."list_id" = ? ORDER BY "cards"."position" ASC[0m  [["list_id", 3]]
+  Rendered lists/index.html.erb within layouts/application (7.7ms)
+  Rendered shared/_head.html.erb (48.4ms)
+  [1m[36mAnnouncement Load (0.3ms)[0m  [1m[34mSELECT  "announcements".* FROM "announcements" ORDER BY "announcements"."published_at" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (3.6ms)
+  Rendered shared/_notices.html.erb (1.0ms)
+  Rendered shared/_footer.html.erb (1.2ms)
+Completed 200 OK in 87ms (Views: 83.3ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/cable" for 127.0.0.1 at 2018-10-09 08:59:45 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 08:59:45 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 08:59:45 +0300
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 08:59:45 +0300
+Started GET "/cable" for 127.0.0.1 at 2018-10-09 08:59:54 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 08:59:54 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 08:59:54 +0300
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 08:59:54 +0300
+Started GET "/cable" for 127.0.0.1 at 2018-10-09 09:00:06 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 09:00:06 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 09:00:06 +0300
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 09:00:06 +0300
+Started GET "/cable" for 127.0.0.1 at 2018-10-09 09:00:15 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 09:00:15 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 09:00:15 +0300
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 09:00:15 +0300
+Started GET "/cable" for 127.0.0.1 at 2018-10-09 09:00:23 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 09:00:23 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 09:00:23 +0300
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 09:00:23 +0300
+Started GET "/cable" for 127.0.0.1 at 2018-10-09 09:00:33 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 09:00:33 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 09:00:33 +0300
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 09:00:33 +0300
+Started GET "/" for 127.0.0.1 at 2018-10-09 09:00:41 +0300
+Processing by ListsController#index as HTML
+  Rendering lists/index.html.erb within layouts/application
+  [1m[36mList Load (0.3ms)[0m  [1m[34mSELECT "lists".* FROM "lists" ORDER BY "lists"."position" ASC[0m
+  [1m[36mCard Load (0.2ms)[0m  [1m[34mSELECT "cards".* FROM "cards" WHERE "cards"."list_id" = ? ORDER BY "cards"."position" ASC[0m  [["list_id", 1]]
+  [1m[36mCard Load (0.2ms)[0m  [1m[34mSELECT "cards".* FROM "cards" WHERE "cards"."list_id" = ? ORDER BY "cards"."position" ASC[0m  [["list_id", 2]]
+  [1m[36mCard Load (0.2ms)[0m  [1m[34mSELECT "cards".* FROM "cards" WHERE "cards"."list_id" = ? ORDER BY "cards"."position" ASC[0m  [["list_id", 3]]
+  Rendered lists/index.html.erb within layouts/application (9.4ms)
+  Rendered shared/_head.html.erb (89.7ms)
+  [1m[36mAnnouncement Load (0.2ms)[0m  [1m[34mSELECT  "announcements".* FROM "announcements" ORDER BY "announcements"."published_at" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (2.7ms)
+  Rendered shared/_notices.html.erb (0.7ms)
+  Rendered shared/_footer.html.erb (0.9ms)
+Completed 200 OK in 127ms (Views: 123.4ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/cable" for 127.0.0.1 at 2018-10-09 09:00:41 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 09:00:41 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 09:00:41 +0300
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 09:00:41 +0300
+Started GET "/index" for 127.0.0.1 at 2018-10-09 09:00:47 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/index"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+webpacker (3.5.2) lib/webpacker/dev_server_proxy.rb:22:in `perform_request'
+rack-proxy (0.6.4) lib/rack/proxy.rb:57:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/index/new" for 127.0.0.1 at 2018-10-09 09:00:52 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/index/new"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+webpacker (3.5.2) lib/webpacker/dev_server_proxy.rb:22:in `perform_request'
+rack-proxy (0.6.4) lib/rack/proxy.rb:57:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/index" for 127.0.0.1 at 2018-10-09 09:00:58 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/index"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+webpacker (3.5.2) lib/webpacker/dev_server_proxy.rb:22:in `perform_request'
+rack-proxy (0.6.4) lib/rack/proxy.rb:57:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/home" for 127.0.0.1 at 2018-10-09 09:01:54 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/home"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+webpacker (3.5.2) lib/webpacker/dev_server_proxy.rb:22:in `perform_request'
+rack-proxy (0.6.4) lib/rack/proxy.rb:57:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-10-09 09:01:58 +0300
+Processing by ListsController#index as HTML
+  Rendering lists/index.html.erb within layouts/application
+  [1m[36mList Load (0.2ms)[0m  [1m[34mSELECT "lists".* FROM "lists" ORDER BY "lists"."position" ASC[0m
+  [1m[36mCard Load (0.1ms)[0m  [1m[34mSELECT "cards".* FROM "cards" WHERE "cards"."list_id" = ? ORDER BY "cards"."position" ASC[0m  [["list_id", 1]]
+  [1m[36mCard Load (0.1ms)[0m  [1m[34mSELECT "cards".* FROM "cards" WHERE "cards"."list_id" = ? ORDER BY "cards"."position" ASC[0m  [["list_id", 2]]
+  [1m[36mCard Load (0.1ms)[0m  [1m[34mSELECT "cards".* FROM "cards" WHERE "cards"."list_id" = ? ORDER BY "cards"."position" ASC[0m  [["list_id", 3]]
+  Rendered lists/index.html.erb within layouts/application (5.1ms)
+  Rendered shared/_head.html.erb (42.9ms)
+  [1m[36mAnnouncement Load (0.2ms)[0m  [1m[34mSELECT  "announcements".* FROM "announcements" ORDER BY "announcements"."published_at" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (2.1ms)
+  Rendered shared/_notices.html.erb (0.4ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 72ms (Views: 68.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/cable" for 127.0.0.1 at 2018-10-09 09:01:58 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 09:01:58 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 09:01:58 +0300
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 09:01:58 +0300
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-10-09 09:02:02 +0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (10.2ms)
+  Rendered shared/_head.html.erb (38.4ms)
+  [1m[36mAnnouncement Load (0.2ms)[0m  [1m[34mSELECT  "announcements".* FROM "announcements" ORDER BY "announcements"."published_at" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (2.3ms)
+  Rendered shared/_notices.html.erb (0.5ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 97ms (Views: 78.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/cable" for 127.0.0.1 at 2018-10-09 09:02:07 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 09:02:07 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 09:02:07 +0300
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 09:02:07 +0300
+Started GET "/users/sign_up" for 127.0.0.1 at 2018-10-09 09:02:11 +0300
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.3ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (6.9ms)
+  Rendered shared/_head.html.erb (49.5ms)
+  [1m[36mAnnouncement Load (0.2ms)[0m  [1m[34mSELECT  "announcements".* FROM "announcements" ORDER BY "announcements"."published_at" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (2.0ms)
+  Rendered shared/_notices.html.erb (0.4ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 89ms (Views: 87.7ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2018-10-09 09:02:20 +0300
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZV9bVIwsv8sRNf5t6MtrVlbAURIygU3cW9MMUZBlxnqsDNOugaKZuxZzX9DTsMM1x2b3cV1lKQ10YYe4YNLykw==", "user"=>{"name"=>"Kerry", "email"=>"valeevakarina@mail.ru", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "valeevakarina@mail.ru"], ["LIMIT", 1]]
+  [1m[35mSQL (1.1ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["email", "valeevakarina@mail.ru"], ["encrypted_password", "$2a$11$s5cHob.uxsD0ptg2gClmCuawIcBsqs21GTLeEC5LGUJxUW7zStwk2"], ["name", "Kerry"], ["created_at", "2018-10-09 06:02:20.166512"], ["updated_at", "2018-10-09 06:02:20.166512"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "users" SET "sign_in_count" = ?, "current_sign_in_at" = ?, "last_sign_in_at" = ?, "current_sign_in_ip" = ?, "last_sign_in_ip" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["sign_in_count", 1], ["current_sign_in_at", "2018-10-09 06:02:20.192787"], ["last_sign_in_at", "2018-10-09 06:02:20.192787"], ["current_sign_in_ip", "127.0.0.1"], ["last_sign_in_ip", "127.0.0.1"], ["updated_at", "2018-10-09 06:02:20.193488"], ["id", 1]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 237ms (ActiveRecord: 3.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-09 09:02:20 +0300
+Processing by ListsController#index as HTML
+  Rendering lists/index.html.erb within layouts/application
+  [1m[36mList Load (0.3ms)[0m  [1m[34mSELECT "lists".* FROM "lists" ORDER BY "lists"."position" ASC[0m
+  [1m[36mCard Load (0.3ms)[0m  [1m[34mSELECT "cards".* FROM "cards" WHERE "cards"."list_id" = ? ORDER BY "cards"."position" ASC[0m  [["list_id", 1]]
+  [1m[36mCard Load (0.2ms)[0m  [1m[34mSELECT "cards".* FROM "cards" WHERE "cards"."list_id" = ? ORDER BY "cards"."position" ASC[0m  [["list_id", 2]]
+  [1m[36mCard Load (0.1ms)[0m  [1m[34mSELECT "cards".* FROM "cards" WHERE "cards"."list_id" = ? ORDER BY "cards"."position" ASC[0m  [["list_id", 3]]
+  Rendered lists/index.html.erb within layouts/application (7.4ms)
+  Rendered shared/_head.html.erb (49.6ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAnnouncement Load (0.2ms)[0m  [1m[34mSELECT  "announcements".* FROM "announcements" ORDER BY "announcements"."published_at" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (4.0ms)
+  Rendered shared/_notices.html.erb (0.5ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+Completed 200 OK in 88ms (Views: 83.9ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/cable" for 127.0.0.1 at 2018-10-09 09:02:20 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 09:02:20 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+[ActionCable] [User 1] Registered connection (Z2lkOi8vdHJlbGxvLWNsb25lL1VzZXIvMQ)
+[ActionCable] [User 1] BoardChannel is transmitting the subscription confirmation
+[ActionCable] [User 1] BoardChannel is streaming from board
+Started GET "/notifications" for 127.0.0.1 at 2018-10-09 09:02:30 +0300
+Processing by NotificationsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering notifications/index.html.erb within layouts/application
+  [1m[36mNotification Load (0.2ms)[0m  [1m[34mSELECT "notifications".* FROM "notifications" WHERE "notifications"."recipient_id" = ?[0m  [["recipient_id", 1]]
+  Rendered notifications/index.html.erb within layouts/application (5.7ms)
+  Rendered shared/_head.html.erb (40.5ms)
+  [1m[36mAnnouncement Load (0.3ms)[0m  [1m[34mSELECT  "announcements".* FROM "announcements" ORDER BY "announcements"."published_at" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (3.0ms)
+  Rendered shared/_notices.html.erb (0.6ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+Completed 200 OK in 83ms (Views: 74.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2018-10-09 09:02:34 +0300
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/registrations/edit.html.erb within layouts/application (2.1ms)
+  Rendered shared/_head.html.erb (39.6ms)
+  [1m[36mAnnouncement Load (0.2ms)[0m  [1m[34mSELECT  "announcements".* FROM "announcements" ORDER BY "announcements"."published_at" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (2.2ms)
+  Rendered shared/_notices.html.erb (0.3ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 75ms (Views: 72.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-09 09:02:38 +0300
+Processing by ListsController#index as HTML
+  Rendering lists/index.html.erb within layouts/application
+  [1m[36mList Load (0.3ms)[0m  [1m[34mSELECT "lists".* FROM "lists" ORDER BY "lists"."position" ASC[0m
+  [1m[36mCard Load (0.1ms)[0m  [1m[34mSELECT "cards".* FROM "cards" WHERE "cards"."list_id" = ? ORDER BY "cards"."position" ASC[0m  [["list_id", 1]]
+  [1m[36mCard Load (0.2ms)[0m  [1m[34mSELECT "cards".* FROM "cards" WHERE "cards"."list_id" = ? ORDER BY "cards"."position" ASC[0m  [["list_id", 2]]
+  [1m[36mCard Load (0.1ms)[0m  [1m[34mSELECT "cards".* FROM "cards" WHERE "cards"."list_id" = ? ORDER BY "cards"."position" ASC[0m  [["list_id", 3]]
+  Rendered lists/index.html.erb within layouts/application (5.9ms)
+  Rendered shared/_head.html.erb (41.9ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAnnouncement Load (0.2ms)[0m  [1m[34mSELECT  "announcements".* FROM "announcements" ORDER BY "announcements"."published_at" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (3.3ms)
+  Rendered shared/_notices.html.erb (0.4ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 73ms (Views: 68.9ms | ActiveRecord: 1.1ms)
+
+
+Started PATCH "/lists/1/move" for 127.0.0.1 at 2018-10-09 09:02:39 +0300
+Processing by ListsController#move as JSON
+  Parameters: {"list"=>{"position"=>"1"}, "id"=>"1"}
+  [1m[36mList Load (0.2ms)[0m  [1m[34mSELECT  "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mList Load (0.1ms)[0m  [1m[34mSELECT  "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT ? [0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  Rendering lists/show.json.jbuilder
+  Rendered lists/_list.json.jbuilder (1.0ms)
+  [1m[36mCard Load (0.3ms)[0m  [1m[34mSELECT "cards".* FROM "cards" WHERE "cards"."list_id" = ? ORDER BY "cards"."position" ASC[0m  [["list_id", 1]]
+  Rendered lists/show.json.jbuilder (11.1ms)
+[ActionCable] Broadcasting to board: {:commit=>"moveList", :payload=>"{\"id\":1,\"name\":\"JSNKJADNC\\n\",\"position\":1,\"created_at\":\"2018-10-08T17:02:06.480Z\",\"updated_at\":\"2018-10-08T17:02:06.480Z\",\"cards\":[],\"url\":\"http://localhost:3000/lists/1.json\"}"}
+  Rendering lists/show.json.jbuilder
+[ActionCable] [User 1] BoardChannel transmitting {"commit"=>"moveList", "payload"=>"{\"id\":1,\"name\":\"JSNKJADNC\\n\",\"position\":1,\"created_at\":\"2018-10-08T17:02:06.480Z\",\"updated_at\":\"2018-10-08T17:02:06.480Z\",\"cards\":[],\"url\":\"http://localhost:3000/lists/1.json\"}"} (via streamed from board)
+  Rendered lists/_list.json.jbuilder (0.3ms)
+  Rendered lists/show.json.jbuilder (5.2ms)
+Completed 200 OK in 96ms (Views: 41.6ms | ActiveRecord: 0.7ms)
+
+
+Started PATCH "/lists/1/move" for 127.0.0.1 at 2018-10-09 09:02:41 +0300
+Processing by ListsController#move as JSON
+  Parameters: {"list"=>{"position"=>"3"}, "id"=>"1"}
+  [1m[36mList Load (0.1ms)[0m  [1m[34mSELECT  "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mList Load (0.1ms)[0m  [1m[34mSELECT  "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT ? [0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mList Load (0.2ms)[0m  [1m[34mSELECT  "lists".* FROM "lists" WHERE (1 = 1) AND ("lists"."position" IS NOT NULL) ORDER BY "lists"."position" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "lists" SET "position" = ?, "updated_at" = ? WHERE "lists"."id" = ?[0m  [["position", 5], ["updated_at", "2018-10-09 06:02:41.080906"], ["id", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "lists" WHERE (1 = 1) AND ("lists"."position" = 5)[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[33mUPDATE "lists" SET "position" = ("lists"."position" - 1), "updated_at" = '2018-10-09 06:02:41.083544' WHERE (1 = 1) AND ("lists".id != 1) AND ("lists"."position" > 1) AND ("lists"."position" <= 3)[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[33mUPDATE "lists" SET "position" = ?, "updated_at" = ? WHERE "lists"."id" = ?[0m  [["position", 3], ["updated_at", "2018-10-09 06:02:41.084147"], ["id", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "lists" WHERE (1 = 1) AND ("lists"."position" = 3)[0m
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  Rendering lists/show.json.jbuilder
+  Rendered lists/_list.json.jbuilder (0.7ms)
+  [1m[36mCard Load (0.2ms)[0m  [1m[34mSELECT "cards".* FROM "cards" WHERE "cards"."list_id" = ? ORDER BY "cards"."position" ASC[0m  [["list_id", 1]]
+  Rendered lists/show.json.jbuilder (6.1ms)
+[ActionCable] Broadcasting to board: {:commit=>"moveList", :payload=>"{\"id\":1,\"name\":\"JSNKJADNC\\n\",\"position\":3,\"created_at\":\"2018-10-08T17:02:06.480Z\",\"updated_at\":\"2018-10-09T06:02:41.084Z\",\"cards\":[],\"url\":\"http://localhost:3000/lists/1.json\"}"}
+[ActionCable] [User 1] BoardChannel transmitting {"commit"=>"moveList", "payload"=>"{\"id\":1,\"name\":\"JSNKJADNC\\n\",\"position\":3,\"created_at\":\"2018-10-08T17:02:06.480Z\",\"updated_at\":\"2018-10-09T06:02:41.084Z\",\"cards\":[],\"url\":\"http://localhost:3000/lists/1.json\"}"} (via streamed from board)
+  Rendering lists/show.json.jbuilder
+  Rendered lists/_list.json.jbuilder (0.9ms)
+  Rendered lists/show.json.jbuilder (9.9ms)
+Completed 200 OK in 131ms (Views: 74.4ms | ActiveRecord: 2.7ms)
+
+
+Started PATCH "/lists/3/move" for 127.0.0.1 at 2018-10-09 09:02:42 +0300
+Processing by ListsController#move as JSON
+  Parameters: {"list"=>{"position"=>"3"}, "id"=>"3"}
+  [1m[36mList Load (0.1ms)[0m  [1m[34mSELECT  "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mList Load (0.1ms)[0m  [1m[34mSELECT  "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT ? [0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mList Load (0.2ms)[0m  [1m[34mSELECT  "lists".* FROM "lists" WHERE (1 = 1) AND ("lists"."position" IS NOT NULL) ORDER BY "lists"."position" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "lists" SET "position" = ?, "updated_at" = ? WHERE "lists"."id" = ?[0m  [["position", 5], ["updated_at", "2018-10-09 06:02:42.735890"], ["id", 3]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "lists" WHERE (1 = 1) AND ("lists"."position" = 5)[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[33mUPDATE "lists" SET "position" = ("lists"."position" - 1), "updated_at" = '2018-10-09 06:02:42.738036' WHERE (1 = 1) AND ("lists".id != 3) AND ("lists"."position" > 2) AND ("lists"."position" <= 3)[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[33mUPDATE "lists" SET "position" = ?, "updated_at" = ? WHERE "lists"."id" = ?[0m  [["position", 3], ["updated_at", "2018-10-09 06:02:42.738514"], ["id", 3]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "lists" WHERE (1 = 1) AND ("lists"."position" = 3)[0m
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  Rendering lists/show.json.jbuilder
+  Rendered lists/_list.json.jbuilder (0.7ms)
+  [1m[36mCard Load (0.2ms)[0m  [1m[34mSELECT "cards".* FROM "cards" WHERE "cards"."list_id" = ? ORDER BY "cards"."position" ASC[0m  [["list_id", 3]]
+  Rendered lists/show.json.jbuilder (6.3ms)
+[ActionCable] Broadcasting to board: {:commit=>"moveList", :payload=>"{\"id\":3,\"name\":\"SM DF,MF\",\"position\":3,\"created_at\":\"2018-10-08T17:10:40.572Z\",\"updated_at\":\"2018-10-09T06:02:42.738Z\",\"cards\":[],\"url\":\"http://localhost:3000/lists/3.json\"}"}
+  Rendering lists/show.json.jbuilder
+[ActionCable] [User 1] BoardChannel transmitting {"commit"=>"moveList", "payload"=>"{\"id\":3,\"name\":\"SM DF,MF\",\"position\":3,\"created_at\":\"2018-10-08T17:10:40.572Z\",\"updated_at\":\"2018-10-09T06:02:42.738Z\",\"cards\":[],\"url\":\"http://localhost:3000/lists/3.json\"}"} (via streamed from board)
+  Rendered lists/_list.json.jbuilder (0.7ms)
+  Rendered lists/show.json.jbuilder (13.2ms)
+Completed 200 OK in 127ms (Views: 71.3ms | ActiveRecord: 2.8ms)
+
+
+Started PATCH "/lists/1/move" for 127.0.0.1 at 2018-10-09 09:02:45 +0300
+Processing by ListsController#move as JSON
+  Parameters: {"list"=>{"position"=>"1"}, "id"=>"1"}
+  [1m[36mList Load (0.1ms)[0m  [1m[34mSELECT  "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mList Load (0.1ms)[0m  [1m[34mSELECT  "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT ? [0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mList Load (0.2ms)[0m  [1m[34mSELECT  "lists".* FROM "lists" WHERE (1 = 1) AND ("lists"."position" IS NOT NULL) ORDER BY "lists"."position" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "lists" SET "position" = ?, "updated_at" = ? WHERE "lists"."id" = ?[0m  [["position", 5], ["updated_at", "2018-10-09 06:02:45.396016"], ["id", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "lists" WHERE (1 = 1) AND ("lists"."position" = 5)[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[33mUPDATE "lists" SET "position" = ("lists"."position" + 1), "updated_at" = '2018-10-09 06:02:45.398031' WHERE (1 = 1) AND ("lists".id != 1) AND ("lists"."position" >= 1) AND ("lists"."position" < 2)[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[33mUPDATE "lists" SET "position" = ?, "updated_at" = ? WHERE "lists"."id" = ?[0m  [["position", 1], ["updated_at", "2018-10-09 06:02:45.398440"], ["id", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "lists" WHERE (1 = 1) AND ("lists"."position" = 1)[0m
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  Rendering lists/show.json.jbuilder
+  Rendered lists/_list.json.jbuilder (0.8ms)
+  [1m[36mCard Load (0.2ms)[0m  [1m[34mSELECT "cards".* FROM "cards" WHERE "cards"."list_id" = ? ORDER BY "cards"."position" ASC[0m  [["list_id", 1]]
+  Rendered lists/show.json.jbuilder (6.1ms)
+[ActionCable] Broadcasting to board: {:commit=>"moveList", :payload=>"{\"id\":1,\"name\":\"JSNKJADNC\\n\",\"position\":1,\"created_at\":\"2018-10-08T17:02:06.480Z\",\"updated_at\":\"2018-10-09T06:02:45.398Z\",\"cards\":[],\"url\":\"http://localhost:3000/lists/1.json\"}"}
+[ActionCable] [User 1] BoardChannel transmitting {"commit"=>"moveList", "payload"=>"{\"id\":1,\"name\":\"JSNKJADNC\\n\",\"position\":1,\"created_at\":\"2018-10-08T17:02:06.480Z\",\"updated_at\":\"2018-10-09T06:02:45.398Z\",\"cards\":[],\"url\":\"http://localhost:3000/lists/1.json\"}"} (via streamed from board)
+  Rendering lists/show.json.jbuilder
+  Rendered lists/_list.json.jbuilder (0.6ms)
+  Rendered lists/show.json.jbuilder (11.7ms)
+Completed 200 OK in 124ms (Views: 70.9ms | ActiveRecord: 1.9ms)
+
+
+Started PATCH "/lists/2/move" for 127.0.0.1 at 2018-10-09 09:02:46 +0300
+Processing by ListsController#move as JSON
+  Parameters: {"list"=>{"position"=>"3"}, "id"=>"2"}
+  [1m[36mList Load (0.2ms)[0m  [1m[34mSELECT  "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mList Load (0.1ms)[0m  [1m[34mSELECT  "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT ? [0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mList Load (0.2ms)[0m  [1m[34mSELECT  "lists".* FROM "lists" WHERE (1 = 1) AND ("lists"."position" IS NOT NULL) ORDER BY "lists"."position" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "lists" SET "position" = ?, "updated_at" = ? WHERE "lists"."id" = ?[0m  [["position", 5], ["updated_at", "2018-10-09 06:02:46.561703"], ["id", 2]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "lists" WHERE (1 = 1) AND ("lists"."position" = 5)[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[33mUPDATE "lists" SET "position" = ("lists"."position" - 1), "updated_at" = '2018-10-09 06:02:46.563790' WHERE (1 = 1) AND ("lists".id != 2) AND ("lists"."position" > 2) AND ("lists"."position" <= 3)[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[33mUPDATE "lists" SET "position" = ?, "updated_at" = ? WHERE "lists"."id" = ?[0m  [["position", 3], ["updated_at", "2018-10-09 06:02:46.564208"], ["id", 2]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "lists" WHERE (1 = 1) AND ("lists"."position" = 3)[0m
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  Rendering lists/show.json.jbuilder
+  Rendered lists/_list.json.jbuilder (1.1ms)
+  [1m[36mCard Load (0.3ms)[0m  [1m[34mSELECT "cards".* FROM "cards" WHERE "cards"."list_id" = ? ORDER BY "cards"."position" ASC[0m  [["list_id", 2]]
+  Rendered lists/show.json.jbuilder (8.3ms)
+[ActionCable] Broadcasting to board: {:commit=>"moveList", :payload=>"{\"id\":2,\"name\":\"SDMNCND/C\\n\",\"position\":3,\"created_at\":\"2018-10-08T17:02:09.985Z\",\"updated_at\":\"2018-10-09T06:02:46.564Z\",\"cards\":[{\"id\":1,\"list_id\":2,\"name\":\"JHGJG\\n\",\"position\":1,\"created_at\":\"2018-10-08T17:10:34.116Z\",\"updated_at\":\"2018-10-08T19:16:45.841Z\"},{\"id\":2,\"list_id\":2,\"name\":\"AKMFKEMRFNM NM\",\"position\":2,\"created_at\":\"2018-10-08T17:10:45.408Z\",\"updated_at\":\"2018-10-08T19:16:45.841Z\"},{\"id\":3,\"list_id\":2,\"name\":\"BBHJ\\n\",\"position\":3,\"created_at\":\"2018-10-08T17:12:07.696Z\",\"updated_at\":\"2018-10-08T19:16:45.838Z\"}],\"url\":\"http://localhost:3000/lists/2.json\"}"}
+  Rendering lists/show.json.jbuilder
+[ActionCable] [User 1] BoardChannel transmitting {"commit"=>"moveList", "payload"=>"{\"id\":2,\"name\":\"SDMNCND/C\\n\",\"position\":3,\"created_at\":\"2018-10-08T17:02:09.985Z\",\"updated_at\":\"2018-10-09T06:02:46.564Z\",\"cards\":[{\"id\":1,\"list_id\":2,\"name\":\"JHGJG\\n\",\"position\":1,\"created_at\":\"2018-10-08T17:10:34.116Z\",\"updat... (via streamed from board)
+  Rendered lists/_list.json.jbuilder (0.8ms)
+  Rendered lists/show.json.jbuilder (8.3ms)
+Completed 200 OK in 144ms (Views: 84.7ms | ActiveRecord: 2.6ms)
+
+
+Started PATCH "/lists/2/move" for 127.0.0.1 at 2018-10-09 09:02:48 +0300
+Processing by ListsController#move as JSON
+  Parameters: {"list"=>{"position"=>"3"}, "id"=>"2"}
+  [1m[36mList Load (0.2ms)[0m  [1m[34mSELECT  "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mList Load (0.2ms)[0m  [1m[34mSELECT  "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT ? [0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[36mcommit transaction[0m
+  Rendering lists/show.json.jbuilder
+  Rendered lists/_list.json.jbuilder (0.7ms)
+  [1m[36mCard Load (0.2ms)[0m  [1m[34mSELECT "cards".* FROM "cards" WHERE "cards"."list_id" = ? ORDER BY "cards"."position" ASC[0m  [["list_id", 2]]
+  Rendered lists/show.json.jbuilder (6.6ms)
+[ActionCable] Broadcasting to board: {:commit=>"moveList", :payload=>"{\"id\":2,\"name\":\"SDMNCND/C\\n\",\"position\":3,\"created_at\":\"2018-10-08T17:02:09.985Z\",\"updated_at\":\"2018-10-09T06:02:46.564Z\",\"cards\":[{\"id\":1,\"list_id\":2,\"name\":\"JHGJG\\n\",\"position\":1,\"created_at\":\"2018-10-08T17:10:34.116Z\",\"updated_at\":\"2018-10-08T19:16:45.841Z\"},{\"id\":2,\"list_id\":2,\"name\":\"AKMFKEMRFNM NM\",\"position\":2,\"created_at\":\"2018-10-08T17:10:45.408Z\",\"updated_at\":\"2018-10-08T19:16:45.841Z\"},{\"id\":3,\"list_id\":2,\"name\":\"BBHJ\\n\",\"position\":3,\"created_at\":\"2018-10-08T17:12:07.696Z\",\"updated_at\":\"2018-10-08T19:16:45.838Z\"}],\"url\":\"http://localhost:3000/lists/2.json\"}"}
+[ActionCable] [User 1] BoardChannel transmitting {"commit"=>"moveList", "payload"=>"{\"id\":2,\"name\":\"SDMNCND/C\\n\",\"position\":3,\"created_at\":\"2018-10-08T17:02:09.985Z\",\"updated_at\":\"2018-10-09T06:02:46.564Z\",\"cards\":[{\"id\":1,\"list_id\":2,\"name\":\"JHGJG\\n\",\"position\":1,\"created_at\":\"2018-10-08T17:10:34.116Z\",\"updat... (via streamed from board)
+  Rendering lists/show.json.jbuilder
+  Rendered lists/_list.json.jbuilder (0.6ms)
+  Rendered lists/show.json.jbuilder (4.9ms)
+Completed 200 OK in 91ms (Views: 40.2ms | ActiveRecord: 0.8ms)
+
+
+Started PATCH "/lists/2/move" for 127.0.0.1 at 2018-10-09 09:02:50 +0300
+Processing by ListsController#move as JSON
+  Parameters: {"list"=>{"position"=>"2"}, "id"=>"2"}
+  [1m[36mList Load (0.1ms)[0m  [1m[34mSELECT  "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mList Load (0.1ms)[0m  [1m[34mSELECT  "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT ? [0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mList Load (0.1ms)[0m  [1m[34mSELECT  "lists".* FROM "lists" WHERE (1 = 1) AND ("lists"."position" IS NOT NULL) ORDER BY "lists"."position" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35mSQL (0.2ms)[0m  [1m[33mUPDATE "lists" SET "position" = ?, "updated_at" = ? WHERE "lists"."id" = ?[0m  [["position", 5], ["updated_at", "2018-10-09 06:02:50.880914"], ["id", 2]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "lists" WHERE (1 = 1) AND ("lists"."position" = 5)[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[33mUPDATE "lists" SET "position" = ("lists"."position" + 1), "updated_at" = '2018-10-09 06:02:50.882601' WHERE (1 = 1) AND ("lists".id != 2) AND ("lists"."position" >= 2) AND ("lists"."position" < 3)[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[33mUPDATE "lists" SET "position" = ?, "updated_at" = ? WHERE "lists"."id" = ?[0m  [["position", 2], ["updated_at", "2018-10-09 06:02:50.882994"], ["id", 2]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "lists" WHERE (1 = 1) AND ("lists"."position" = 2)[0m
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  Rendering lists/show.json.jbuilder
+  Rendered lists/_list.json.jbuilder (0.8ms)
+  [1m[36mCard Load (0.2ms)[0m  [1m[34mSELECT "cards".* FROM "cards" WHERE "cards"."list_id" = ? ORDER BY "cards"."position" ASC[0m  [["list_id", 2]]
+  Rendered lists/show.json.jbuilder (7.0ms)
+[ActionCable] Broadcasting to board: {:commit=>"moveList", :payload=>"{\"id\":2,\"name\":\"SDMNCND/C\\n\",\"position\":2,\"created_at\":\"2018-10-08T17:02:09.985Z\",\"updated_at\":\"2018-10-09T06:02:50.882Z\",\"cards\":[{\"id\":1,\"list_id\":2,\"name\":\"JHGJG\\n\",\"position\":1,\"created_at\":\"2018-10-08T17:10:34.116Z\",\"updated_at\":\"2018-10-08T19:16:45.841Z\"},{\"id\":2,\"list_id\":2,\"name\":\"AKMFKEMRFNM NM\",\"position\":2,\"created_at\":\"2018-10-08T17:10:45.408Z\",\"updated_at\":\"2018-10-08T19:16:45.841Z\"},{\"id\":3,\"list_id\":2,\"name\":\"BBHJ\\n\",\"position\":3,\"created_at\":\"2018-10-08T17:12:07.696Z\",\"updated_at\":\"2018-10-08T19:16:45.838Z\"}],\"url\":\"http://localhost:3000/lists/2.json\"}"}
+[ActionCable] [User 1] BoardChannel transmitting {"commit"=>"moveList", "payload"=>"{\"id\":2,\"name\":\"SDMNCND/C\\n\",\"position\":2,\"created_at\":\"2018-10-08T17:02:09.985Z\",\"updated_at\":\"2018-10-09T06:02:50.882Z\",\"cards\":[{\"id\":1,\"list_id\":2,\"name\":\"JHGJG\\n\",\"position\":1,\"created_at\":\"2018-10-08T17:10:34.116Z\",\"updat... (via streamed from board)
+  Rendering lists/show.json.jbuilder
+  Rendered lists/_list.json.jbuilder (0.7ms)
+  Rendered lists/show.json.jbuilder (5.7ms)
+Completed 200 OK in 102ms (Views: 48.2ms | ActiveRecord: 2.5ms)
+
+
+Started PATCH "/lists/2/move" for 127.0.0.1 at 2018-10-09 09:02:51 +0300
+Processing by ListsController#move as JSON
+  Parameters: {"list"=>{"position"=>"1"}, "id"=>"2"}
+  [1m[36mList Load (0.1ms)[0m  [1m[34mSELECT  "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mList Load (0.1ms)[0m  [1m[34mSELECT  "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT ? [0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mList Load (0.1ms)[0m  [1m[34mSELECT  "lists".* FROM "lists" WHERE (1 = 1) AND ("lists"."position" IS NOT NULL) ORDER BY "lists"."position" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "lists" SET "position" = ?, "updated_at" = ? WHERE "lists"."id" = ?[0m  [["position", 5], ["updated_at", "2018-10-09 06:02:51.934437"], ["id", 2]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "lists" WHERE (1 = 1) AND ("lists"."position" = 5)[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[33mUPDATE "lists" SET "position" = ("lists"."position" + 1), "updated_at" = '2018-10-09 06:02:51.936343' WHERE (1 = 1) AND ("lists".id != 2) AND ("lists"."position" >= 1) AND ("lists"."position" < 2)[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[33mUPDATE "lists" SET "position" = ?, "updated_at" = ? WHERE "lists"."id" = ?[0m  [["position", 1], ["updated_at", "2018-10-09 06:02:51.936843"], ["id", 2]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "lists" WHERE (1 = 1) AND ("lists"."position" = 1)[0m
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  Rendering lists/show.json.jbuilder
+  Rendered lists/_list.json.jbuilder (1.0ms)
+  [1m[36mCard Load (0.3ms)[0m  [1m[34mSELECT "cards".* FROM "cards" WHERE "cards"."list_id" = ? ORDER BY "cards"."position" ASC[0m  [["list_id", 2]]
+  Rendered lists/show.json.jbuilder (8.9ms)
+[ActionCable] Broadcasting to board: {:commit=>"moveList", :payload=>"{\"id\":2,\"name\":\"SDMNCND/C\\n\",\"position\":1,\"created_at\":\"2018-10-08T17:02:09.985Z\",\"updated_at\":\"2018-10-09T06:02:51.936Z\",\"cards\":[{\"id\":1,\"list_id\":2,\"name\":\"JHGJG\\n\",\"position\":1,\"created_at\":\"2018-10-08T17:10:34.116Z\",\"updated_at\":\"2018-10-08T19:16:45.841Z\"},{\"id\":2,\"list_id\":2,\"name\":\"AKMFKEMRFNM NM\",\"position\":2,\"created_at\":\"2018-10-08T17:10:45.408Z\",\"updated_at\":\"2018-10-08T19:16:45.841Z\"},{\"id\":3,\"list_id\":2,\"name\":\"BBHJ\\n\",\"position\":3,\"created_at\":\"2018-10-08T17:12:07.696Z\",\"updated_at\":\"2018-10-08T19:16:45.838Z\"}],\"url\":\"http://localhost:3000/lists/2.json\"}"}
+  Rendering lists/show.json.jbuilder
+[ActionCable] [User 1] BoardChannel transmitting {"commit"=>"moveList", "payload"=>"{\"id\":2,\"name\":\"SDMNCND/C\\n\",\"position\":1,\"created_at\":\"2018-10-08T17:02:09.985Z\",\"updated_at\":\"2018-10-09T06:02:51.936Z\",\"cards\":[{\"id\":1,\"list_id\":2,\"name\":\"JHGJG\\n\",\"position\":1,\"created_at\":\"2018-10-08T17:10:34.116Z\",\"updat... (via streamed from board)
+  Rendered lists/_list.json.jbuilder (0.8ms)
+  Rendered lists/show.json.jbuilder (13.3ms)
+Completed 200 OK in 134ms (Views: 78.2ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/terms" for 127.0.0.1 at 2018-10-09 09:02:55 +0300
+Processing by HomeController#terms as HTML
+  Rendering home/terms.html.erb within layouts/application
+  Rendered home/terms.html.erb within layouts/application (0.3ms)
+  Rendered shared/_head.html.erb (40.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAnnouncement Load (0.2ms)[0m  [1m[34mSELECT  "announcements".* FROM "announcements" ORDER BY "announcements"."published_at" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (3.8ms)
+  Rendered shared/_notices.html.erb (0.4ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 64ms (Views: 61.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/privacy" for 127.0.0.1 at 2018-10-09 09:02:57 +0300
+Processing by HomeController#privacy as HTML
+  Rendering home/privacy.html.erb within layouts/application
+  Rendered home/privacy.html.erb within layouts/application (0.3ms)
+  Rendered shared/_head.html.erb (50.5ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAnnouncement Load (0.2ms)[0m  [1m[34mSELECT  "announcements".* FROM "announcements" ORDER BY "announcements"."published_at" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (5.4ms)
+  Rendered shared/_notices.html.erb (0.5ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 83ms (Views: 80.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/terms" for 127.0.0.1 at 2018-10-09 09:02:58 +0300
+Processing by HomeController#terms as HTML
+  Rendering home/terms.html.erb within layouts/application
+  Rendered home/terms.html.erb within layouts/application (0.4ms)
+  Rendered shared/_head.html.erb (40.7ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAnnouncement Load (0.2ms)[0m  [1m[34mSELECT  "announcements".* FROM "announcements" ORDER BY "announcements"."published_at" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (3.2ms)
+  Rendered shared/_notices.html.erb (0.5ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+Completed 200 OK in 67ms (Views: 63.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/terms" for 127.0.0.1 at 2018-10-09 09:04:29 +0300
+Processing by HomeController#terms as HTML
+  Rendering home/terms.html.erb within layouts/application
+  Rendered home/terms.html.erb within layouts/application (0.4ms)
+  Rendered shared/_head.html.erb (69.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAnnouncement Load (0.2ms)[0m  [1m[34mSELECT  "announcements".* FROM "announcements" ORDER BY "announcements"."published_at" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (3.1ms)
+  Rendered shared/_notices.html.erb (0.7ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+Completed 200 OK in 96ms (Views: 93.2ms | ActiveRecord: 0.4ms)
+
+
+[ActionCable] [User 1] Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 09:04:29 +0300
+[ActionCable] [User 1] BoardChannel stopped streaming from board
+Started GET "/cable" for 127.0.0.1 at 2018-10-09 09:04:29 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 09:04:29 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+[ActionCable] [User 1] Registered connection (Z2lkOi8vdHJlbGxvLWNsb25lL1VzZXIvMQ)
+[ActionCable] [User 1] BoardChannel is transmitting the subscription confirmation
+[ActionCable] [User 1] BoardChannel is streaming from board
+Started GET "/terms" for 127.0.0.1 at 2018-10-09 09:04:30 +0300
+Processing by HomeController#terms as HTML
+  Rendering home/terms.html.erb within layouts/application
+  Rendered home/terms.html.erb within layouts/application (0.4ms)
+  Rendered shared/_head.html.erb (53.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAnnouncement Load (0.1ms)[0m  [1m[34mSELECT  "announcements".* FROM "announcements" ORDER BY "announcements"."published_at" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (3.1ms)
+  Rendered shared/_notices.html.erb (0.6ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+Completed 200 OK in 86ms (Views: 84.0ms | ActiveRecord: 0.3ms)
+
+
+[ActionCable] [User 1] Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 09:04:30 +0300
+[ActionCable] [User 1] BoardChannel stopped streaming from board
+Started GET "/cable" for 127.0.0.1 at 2018-10-09 09:04:30 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 09:04:30 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+[ActionCable] [User 1] Registered connection (Z2lkOi8vdHJlbGxvLWNsb25lL1VzZXIvMQ)
+[ActionCable] [User 1] BoardChannel is transmitting the subscription confirmation
+[ActionCable] [User 1] BoardChannel is streaming from board
+Started GET "/announcements" for 127.0.0.1 at 2018-10-09 09:04:32 +0300
+Processing by AnnouncementsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "users" SET "announcements_last_read_at" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["announcements_last_read_at", "2018-10-09 06:04:32.014003"], ["updated_at", "2018-10-09 06:04:32.014826"], ["id", 1]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  Rendering announcements/index.html.erb within layouts/application
+  [1m[36mAnnouncement Load (0.1ms)[0m  [1m[34mSELECT "announcements".* FROM "announcements" ORDER BY "announcements"."published_at" DESC[0m
+  Rendered announcements/index.html.erb within layouts/application (1.2ms)
+  Rendered shared/_head.html.erb (59.2ms)
+  [1m[36mAnnouncement Load (0.3ms)[0m  [1m[34mSELECT  "announcements".* FROM "announcements" ORDER BY "announcements"."published_at" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (2.8ms)
+  Rendered shared/_notices.html.erb (0.4ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 93ms (Views: 86.5ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/announcements" for 127.0.0.1 at 2018-10-09 09:04:40 +0300
+Processing by AnnouncementsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "users" SET "announcements_last_read_at" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["announcements_last_read_at", "2018-10-09 06:04:40.752171"], ["updated_at", "2018-10-09 06:04:40.753287"], ["id", 1]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  Rendering announcements/index.html.erb within layouts/application
+  [1m[36mAnnouncement Load (0.1ms)[0m  [1m[34mSELECT "announcements".* FROM "announcements" ORDER BY "announcements"."published_at" DESC[0m
+  Rendered announcements/index.html.erb within layouts/application (1.2ms)
+  Rendered shared/_head.html.erb (59.5ms)
+  [1m[36mAnnouncement Load (0.2ms)[0m  [1m[34mSELECT  "announcements".* FROM "announcements" ORDER BY "announcements"."published_at" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (2.4ms)
+  Rendered shared/_notices.html.erb (0.6ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 91ms (Views: 82.3ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2018-10-09 09:06:02 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/home"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+webpacker (3.5.2) lib/webpacker/dev_server_proxy.rb:22:in `perform_request'
+rack-proxy (0.6.4) lib/rack/proxy.rb:57:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+[ActionCable] [User 1] Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 09:06:02 +0300
+[ActionCable] [User 1] BoardChannel stopped streaming from board
+Started GET "/home/index" for 127.0.0.1 at 2018-10-09 09:06:06 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/home/index"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+webpacker (3.5.2) lib/webpacker/dev_server_proxy.rb:22:in `perform_request'
+rack-proxy (0.6.4) lib/rack/proxy.rb:57:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/cable" for 127.0.0.1 at 2018-10-09 09:06:16 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 09:06:16 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+[ActionCable] [User 1] Registered connection (Z2lkOi8vdHJlbGxvLWNsb25lL1VzZXIvMQ)
+[ActionCable] [User 1] BoardChannel is transmitting the subscription confirmation
+[ActionCable] [User 1] BoardChannel is streaming from board
+Started GET "/" for 127.0.0.1 at 2018-10-09 09:06:20 +0300
+Processing by ListsController#index as HTML
+  Rendering lists/index.html.erb within layouts/application
+  [1m[36mList Load (0.2ms)[0m  [1m[34mSELECT "lists".* FROM "lists" ORDER BY "lists"."position" ASC[0m
+  [1m[36mCard Load (0.1ms)[0m  [1m[34mSELECT "cards".* FROM "cards" WHERE "cards"."list_id" = ? ORDER BY "cards"."position" ASC[0m  [["list_id", 2]]
+  [1m[36mCard Load (0.1ms)[0m  [1m[34mSELECT "cards".* FROM "cards" WHERE "cards"."list_id" = ? ORDER BY "cards"."position" ASC[0m  [["list_id", 1]]
+  [1m[36mCard Load (0.1ms)[0m  [1m[34mSELECT "cards".* FROM "cards" WHERE "cards"."list_id" = ? ORDER BY "cards"."position" ASC[0m  [["list_id", 3]]
+  Rendered lists/index.html.erb within layouts/application (5.4ms)
+  Rendered shared/_head.html.erb (43.7ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAnnouncement Load (0.2ms)[0m  [1m[34mSELECT  "announcements".* FROM "announcements" ORDER BY "announcements"."published_at" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (3.5ms)
+  Rendered shared/_notices.html.erb (0.6ms)
+  Rendered shared/_footer.html.erb (0.8ms)
+Completed 200 OK in 84ms (Views: 80.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/privacy" for 127.0.0.1 at 2018-10-09 09:06:30 +0300
+Processing by HomeController#privacy as HTML
+  Rendering home/privacy.html.erb within layouts/application
+  Rendered home/privacy.html.erb within layouts/application (0.4ms)
+  Rendered shared/_head.html.erb (42.0ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAnnouncement Load (0.1ms)[0m  [1m[34mSELECT  "announcements".* FROM "announcements" ORDER BY "announcements"."published_at" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (3.6ms)
+  Rendered shared/_notices.html.erb (0.3ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 66ms (Views: 63.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-09 09:06:43 +0300
+Processing by ListsController#index as HTML
+  Rendering lists/index.html.erb within layouts/application
+  [1m[36mList Load (0.4ms)[0m  [1m[34mSELECT "lists".* FROM "lists" ORDER BY "lists"."position" ASC[0m
+  [1m[36mCard Load (0.2ms)[0m  [1m[34mSELECT "cards".* FROM "cards" WHERE "cards"."list_id" = ? ORDER BY "cards"."position" ASC[0m  [["list_id", 2]]
+  [1m[36mCard Load (0.2ms)[0m  [1m[34mSELECT "cards".* FROM "cards" WHERE "cards"."list_id" = ? ORDER BY "cards"."position" ASC[0m  [["list_id", 1]]
+  [1m[36mCard Load (0.2ms)[0m  [1m[34mSELECT "cards".* FROM "cards" WHERE "cards"."list_id" = ? ORDER BY "cards"."position" ASC[0m  [["list_id", 3]]
+  Rendered lists/index.html.erb within layouts/application (7.2ms)
+  Rendered shared/_head.html.erb (47.4ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAnnouncement Load (0.1ms)[0m  [1m[34mSELECT  "announcements".* FROM "announcements" ORDER BY "announcements"."published_at" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (2.8ms)
+  Rendered shared/_notices.html.erb (0.5ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 80ms (Views: 75.4ms | ActiveRecord: 1.3ms)
+
+
+[ActionCable] [User 1] Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 09:06:43 +0300
+[ActionCable] [User 1] BoardChannel stopped streaming from board
+Started GET "/cable" for 127.0.0.1 at 2018-10-09 09:06:43 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 09:06:43 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+[ActionCable] [User 1] Registered connection (Z2lkOi8vdHJlbGxvLWNsb25lL1VzZXIvMQ)
+[ActionCable] [User 1] BoardChannel is transmitting the subscription confirmation
+[ActionCable] [User 1] BoardChannel is streaming from board
+Started GET "/" for 127.0.0.1 at 2018-10-09 09:08:02 +0300
+Processing by ListsController#index as HTML
+  Rendering lists/index.html.erb within layouts/application
+  [1m[36mList Load (0.2ms)[0m  [1m[34mSELECT "lists".* FROM "lists" ORDER BY "lists"."position" ASC[0m
+  [1m[36mCard Load (0.6ms)[0m  [1m[34mSELECT "cards".* FROM "cards" WHERE "cards"."list_id" = ? ORDER BY "cards"."position" ASC[0m  [["list_id", 2]]
+  [1m[36mCard Load (0.1ms)[0m  [1m[34mSELECT "cards".* FROM "cards" WHERE "cards"."list_id" = ? ORDER BY "cards"."position" ASC[0m  [["list_id", 1]]
+  [1m[36mCard Load (0.1ms)[0m  [1m[34mSELECT "cards".* FROM "cards" WHERE "cards"."list_id" = ? ORDER BY "cards"."position" ASC[0m  [["list_id", 3]]
+  Rendered lists/index.html.erb within layouts/application (7.2ms)
+  Rendered shared/_head.html.erb (49.5ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAnnouncement Load (0.2ms)[0m  [1m[34mSELECT  "announcements".* FROM "announcements" ORDER BY "announcements"."published_at" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (4.3ms)
+  Rendered shared/_notices.html.erb (0.5ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 82ms (Views: 77.8ms | ActiveRecord: 1.5ms)
+
+
+[ActionCable] [User 1] Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 09:08:02 +0300
+[ActionCable] [User 1] BoardChannel stopped streaming from board
+Started GET "/cable" for 127.0.0.1 at 2018-10-09 09:08:02 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 09:08:02 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+[ActionCable] [User 1] Registered connection (Z2lkOi8vdHJlbGxvLWNsb25lL1VzZXIvMQ)
+[ActionCable] [User 1] BoardChannel is transmitting the subscription confirmation
+[ActionCable] [User 1] BoardChannel is streaming from board
+Started GET "/" for 127.0.0.1 at 2018-10-09 09:08:04 +0300
+Processing by ListsController#index as HTML
+  Rendering lists/index.html.erb within layouts/application
+  [1m[36mList Load (0.2ms)[0m  [1m[34mSELECT "lists".* FROM "lists" ORDER BY "lists"."position" ASC[0m
+  [1m[36mCard Load (0.5ms)[0m  [1m[34mSELECT "cards".* FROM "cards" WHERE "cards"."list_id" = ? ORDER BY "cards"."position" ASC[0m  [["list_id", 2]]
+  [1m[36mCard Load (0.2ms)[0m  [1m[34mSELECT "cards".* FROM "cards" WHERE "cards"."list_id" = ? ORDER BY "cards"."position" ASC[0m  [["list_id", 1]]
+  [1m[36mCard Load (0.1ms)[0m  [1m[34mSELECT "cards".* FROM "cards" WHERE "cards"."list_id" = ? ORDER BY "cards"."position" ASC[0m  [["list_id", 3]]
+  Rendered lists/index.html.erb within layouts/application (10.2ms)
+  Rendered shared/_head.html.erb (65.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAnnouncement Load (0.1ms)[0m  [1m[34mSELECT  "announcements".* FROM "announcements" ORDER BY "announcements"."published_at" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (3.0ms)
+  Rendered shared/_notices.html.erb (0.7ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 99ms (Views: 96.1ms | ActiveRecord: 1.3ms)
+
+
+[ActionCable] [User 1] Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 09:08:04 +0300
+[ActionCable] [User 1] BoardChannel stopped streaming from board
+Started GET "/cable" for 127.0.0.1 at 2018-10-09 09:08:04 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 09:08:04 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+[ActionCable] [User 1] Registered connection (Z2lkOi8vdHJlbGxvLWNsb25lL1VzZXIvMQ)
+[ActionCable] [User 1] BoardChannel is transmitting the subscription confirmation
+[ActionCable] [User 1] BoardChannel is streaming from board
+Started GET "/" for 127.0.0.1 at 2018-10-09 09:09:40 +0300
+Processing by ListsController#index as HTML
+  Rendering lists/index.html.erb within layouts/application
+  [1m[36mList Load (0.2ms)[0m  [1m[34mSELECT "lists".* FROM "lists" ORDER BY "lists"."position" ASC[0m
+  [1m[36mCard Load (0.2ms)[0m  [1m[34mSELECT "cards".* FROM "cards" WHERE "cards"."list_id" = ? ORDER BY "cards"."position" ASC[0m  [["list_id", 2]]
+  [1m[36mCard Load (0.2ms)[0m  [1m[34mSELECT "cards".* FROM "cards" WHERE "cards"."list_id" = ? ORDER BY "cards"."position" ASC[0m  [["list_id", 1]]
+  [1m[36mCard Load (0.2ms)[0m  [1m[34mSELECT "cards".* FROM "cards" WHERE "cards"."list_id" = ? ORDER BY "cards"."position" ASC[0m  [["list_id", 3]]
+  Rendered lists/index.html.erb within layouts/application (6.4ms)
+  Rendered shared/_head.html.erb (64.1ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAnnouncement Load (0.3ms)[0m  [1m[34mSELECT  "announcements".* FROM "announcements" ORDER BY "announcements"."published_at" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (6.9ms)
+  Rendered shared/_notices.html.erb (0.4ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 100ms (Views: 96.7ms | ActiveRecord: 1.4ms)
+
+
+[ActionCable] [User 1] Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 09:09:40 +0300
+[ActionCable] [User 1] BoardChannel stopped streaming from board
+Started GET "/cable" for 127.0.0.1 at 2018-10-09 09:09:41 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 09:09:41 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+[ActionCable] [User 1] Registered connection (Z2lkOi8vdHJlbGxvLWNsb25lL1VzZXIvMQ)
+[ActionCable] [User 1] BoardChannel is transmitting the subscription confirmation
+[ActionCable] [User 1] BoardChannel is streaming from board
+Started GET "/" for 127.0.0.1 at 2018-10-09 09:10:38 +0300
+Processing by ListsController#index as HTML
+  Rendering lists/index.html.erb within layouts/application
+  [1m[36mList Load (0.4ms)[0m  [1m[34mSELECT "lists".* FROM "lists" ORDER BY "lists"."position" ASC[0m
+  [1m[36mCard Load (0.2ms)[0m  [1m[34mSELECT "cards".* FROM "cards" WHERE "cards"."list_id" = ? ORDER BY "cards"."position" ASC[0m  [["list_id", 2]]
+  [1m[36mCard Load (0.1ms)[0m  [1m[34mSELECT "cards".* FROM "cards" WHERE "cards"."list_id" = ? ORDER BY "cards"."position" ASC[0m  [["list_id", 1]]
+  [1m[36mCard Load (0.3ms)[0m  [1m[34mSELECT "cards".* FROM "cards" WHERE "cards"."list_id" = ? ORDER BY "cards"."position" ASC[0m  [["list_id", 3]]
+  Rendered lists/index.html.erb within layouts/application (7.7ms)
+  Rendered shared/_head.html.erb (46.2ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAnnouncement Load (0.2ms)[0m  [1m[34mSELECT  "announcements".* FROM "announcements" ORDER BY "announcements"."published_at" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (3.0ms)
+  Rendered shared/_notices.html.erb (0.4ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 78ms (Views: 73.8ms | ActiveRecord: 1.4ms)
+
+
+[ActionCable] [User 1] Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 09:10:38 +0300
+[ActionCable] [User 1] BoardChannel stopped streaming from board
+Started GET "/cable" for 127.0.0.1 at 2018-10-09 09:10:38 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-10-09 09:10:38 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+[ActionCable] [User 1] Registered connection (Z2lkOi8vdHJlbGxvLWNsb25lL1VzZXIvMQ)
+[ActionCable] [User 1] BoardChannel is transmitting the subscription confirmation
+[ActionCable] [User 1] BoardChannel is streaming from board
+Started GET "/notifications" for 127.0.0.1 at 2018-10-09 09:10:40 +0300
+Processing by NotificationsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering notifications/index.html.erb within layouts/application
+  [1m[36mNotification Load (0.1ms)[0m  [1m[34mSELECT "notifications".* FROM "notifications" WHERE "notifications"."recipient_id" = ?[0m  [["recipient_id", 1]]
+  Rendered notifications/index.html.erb within layouts/application (1.3ms)
+  Rendered shared/_head.html.erb (65.4ms)
+  [1m[36mAnnouncement Load (0.2ms)[0m  [1m[34mSELECT  "announcements".* FROM "announcements" ORDER BY "announcements"."published_at" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (2.4ms)
+  Rendered shared/_notices.html.erb (0.4ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 94ms (Views: 89.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/announcements" for 127.0.0.1 at 2018-10-09 09:10:41 +0300
+Processing by AnnouncementsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "users" SET "announcements_last_read_at" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["announcements_last_read_at", "2018-10-09 06:10:41.754085"], ["updated_at", "2018-10-09 06:10:41.755027"], ["id", 1]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  Rendering announcements/index.html.erb within layouts/application
+  [1m[36mAnnouncement Load (0.1ms)[0m  [1m[34mSELECT "announcements".* FROM "announcements" ORDER BY "announcements"."published_at" DESC[0m
+  Rendered announcements/index.html.erb within layouts/application (1.1ms)
+  Rendered shared/_head.html.erb (62.2ms)
+  [1m[36mAnnouncement Load (0.2ms)[0m  [1m[34mSELECT  "announcements".* FROM "announcements" ORDER BY "announcements"."published_at" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (2.3ms)
+  Rendered shared/_notices.html.erb (0.4ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 93ms (Views: 84.9ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-09 09:10:45 +0300
+Processing by ListsController#index as HTML
+  Rendering lists/index.html.erb within layouts/application
+  [1m[36mList Load (0.2ms)[0m  [1m[34mSELECT "lists".* FROM "lists" ORDER BY "lists"."position" ASC[0m
+  [1m[36mCard Load (0.1ms)[0m  [1m[34mSELECT "cards".* FROM "cards" WHERE "cards"."list_id" = ? ORDER BY "cards"."position" ASC[0m  [["list_id", 2]]
+  [1m[36mCard Load (0.1ms)[0m  [1m[34mSELECT "cards".* FROM "cards" WHERE "cards"."list_id" = ? ORDER BY "cards"."position" ASC[0m  [["list_id", 1]]
+  [1m[36mCard Load (0.1ms)[0m  [1m[34mSELECT "cards".* FROM "cards" WHERE "cards"."list_id" = ? ORDER BY "cards"."position" ASC[0m  [["list_id", 3]]
+  Rendered lists/index.html.erb within layouts/application (5.1ms)
+  Rendered shared/_head.html.erb (65.6ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAnnouncement Load (0.2ms)[0m  [1m[34mSELECT  "announcements".* FROM "announcements" ORDER BY "announcements"."published_at" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (4.3ms)
+  Rendered shared/_notices.html.erb (0.5ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 98ms (Views: 94.4ms | ActiveRecord: 1.0ms)
+
+
+Started PATCH "/cards/1/move" for 127.0.0.1 at 2018-10-09 09:10:48 +0300
+Processing by CardsController#move as JSON
+  Parameters: {"card"=>{"list_id"=>"1", "position"=>"1"}, "id"=>"1"}
+  [1m[36mCard Load (0.2ms)[0m  [1m[34mSELECT  "cards".* FROM "cards" WHERE "cards"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mList Load (0.2ms)[0m  [1m[34mSELECT  "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCard Load (0.2ms)[0m  [1m[34mSELECT  "cards".* FROM "cards" WHERE "cards"."list_id" = ? AND ("cards"."position" >= 1) AND ("cards".id != 1) ORDER BY "cards"."position" ASC LIMIT ?[0m  [["list_id", 2], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "cards" SET "position" = ("cards"."position" - 1), "updated_at" = '2018-10-09 06:10:48.504440' WHERE "cards"."list_id" = ? AND ("cards"."position" > 1)[0m  [["list_id", 2]]
+  [1m[35mSQL (0.1ms)[0m  [1m[33mUPDATE "cards" SET "position" = ("cards"."position" + 1), "updated_at" = '2018-10-09 06:10:48.505401' WHERE "cards"."list_id" = ? AND ("cards".id != 1) AND ("cards"."position" >= 1)[0m  [["list_id", 1]]
+  [1m[35mSQL (0.1ms)[0m  [1m[33mUPDATE "cards" SET "list_id" = ?, "updated_at" = ? WHERE "cards"."id" = ?[0m  [["list_id", 1], ["updated_at", "2018-10-09 06:10:48.502748"], ["id", 1]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  Rendering cards/show.json.jbuilder
+  Rendered cards/_card.json.jbuilder (0.9ms)
+  Rendered cards/show.json.jbuilder (15.9ms)
+[ActionCable] Broadcasting to board: {:commit=>"moveCard", :payload=>"{\"id\":1,\"list_id\":1,\"name\":\"JHGJG\\n\",\"position\":1,\"created_at\":\"2018-10-08T17:10:34.116Z\",\"updated_at\":\"2018-10-09T06:10:48.502Z\",\"url\":\"http://localhost:3000/cards/1.json\"}"}
+[ActionCable] [User 1] BoardChannel transmitting {"commit"=>"moveCard", "payload"=>"{\"id\":1,\"list_id\":1,\"name\":\"JHGJG\\n\",\"position\":1,\"created_at\":\"2018-10-08T17:10:34.116Z\",\"updated_at\":\"2018-10-09T06:10:48.502Z\",\"url\":\"http://localhost:3000/cards/1.json\"}"} (via streamed from board)
+  Rendering cards/show.json.jbuilder
+  Rendered cards/_card.json.jbuilder (0.6ms)
+  Rendered cards/show.json.jbuilder (6.6ms)
+Completed 200 OK in 151ms (Views: 65.6ms | ActiveRecord: 1.5ms)
+
+
+Started PATCH "/cards/2/move" for 127.0.0.1 at 2018-10-09 09:10:50 +0300
+Processing by CardsController#move as JSON
+  Parameters: {"card"=>{"list_id"=>"3", "position"=>"1"}, "id"=>"2"}
+  [1m[36mCard Load (0.2ms)[0m  [1m[34mSELECT  "cards".* FROM "cards" WHERE "cards"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mList Load (0.1ms)[0m  [1m[34mSELECT  "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCard Load (0.2ms)[0m  [1m[34mSELECT  "cards".* FROM "cards" WHERE "cards"."list_id" = ? AND ("cards"."position" >= 1) AND ("cards".id != 2) ORDER BY "cards"."position" ASC LIMIT ?[0m  [["list_id", 2], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "cards" SET "position" = ("cards"."position" - 1), "updated_at" = '2018-10-09 06:10:50.118464' WHERE "cards"."list_id" = ? AND ("cards"."position" > 1)[0m  [["list_id", 2]]
+  [1m[35mSQL (0.1ms)[0m  [1m[33mUPDATE "cards" SET "position" = ("cards"."position" + 1), "updated_at" = '2018-10-09 06:10:50.119279' WHERE "cards"."list_id" = ? AND ("cards".id != 2) AND ("cards"."position" >= 1)[0m  [["list_id", 3]]
+  [1m[35mSQL (0.2ms)[0m  [1m[33mUPDATE "cards" SET "list_id" = ?, "updated_at" = ? WHERE "cards"."id" = ?[0m  [["list_id", 3], ["updated_at", "2018-10-09 06:10:50.116864"], ["id", 2]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  Rendering cards/show.json.jbuilder
+  Rendered cards/_card.json.jbuilder (0.9ms)
+  Rendered cards/show.json.jbuilder (8.0ms)
+[ActionCable] Broadcasting to board: {:commit=>"moveCard", :payload=>"{\"id\":2,\"list_id\":3,\"name\":\"AKMFKEMRFNM NM\",\"position\":1,\"created_at\":\"2018-10-08T17:10:45.408Z\",\"updated_at\":\"2018-10-09T06:10:50.116Z\",\"url\":\"http://localhost:3000/cards/2.json\"}"}
+[ActionCable] [User 1] BoardChannel transmitting {"commit"=>"moveCard", "payload"=>"{\"id\":2,\"list_id\":3,\"name\":\"AKMFKEMRFNM NM\",\"position\":1,\"created_at\":\"2018-10-08T17:10:45.408Z\",\"updated_at\":\"2018-10-09T06:10:50.116Z\",\"url\":\"http://localhost:3000/cards/2.json\"}"} (via streamed from board)
+  Rendering cards/show.json.jbuilder
+  Rendered cards/_card.json.jbuilder (0.7ms)
+  Rendered cards/show.json.jbuilder (8.5ms)
+Completed 200 OK in 138ms (Views: 60.4ms | ActiveRecord: 2.4ms)
+
+
